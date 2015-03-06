@@ -9,19 +9,199 @@
 
 	<link rel="shortcut icon" href="favicon.ico"/>
 
+	<meta charset="utf-8" />
+
 	<script src="js/jquery.min.js"></script>
 	<script src="js/kendo.all.min.js"></script>
 </head>
 <body>
+<div id="main">
+	<div id="header">
+		<ul id="menu">
+			<li>Following</li>
+			<li>
+				Today
+				<ul>
+					<li>
+						Today's Featured Collections
+						<ul>
+							<li>Естественность</li>
+							<li>Полоска</li>
+							<li>Кухонные девайсы</li>
+							<li>Набор путешественника</li>
+							<li>Велоспорт</li>
+							<li>Автолюбителям</li>
+						</ul>
+					</li>
+					<li>
+						Top Trending Collections
+						<ul>
+							<li>Outdoor Planters</li>
+							<li>Like Patchwork</li>
+							<li>Stylish and Unique Accent Chairs</li>
+							<li>home bar must have</li>
+							<li>Ways to Maximize Your Closet Space</li>
+							<li>Kitchen Space Savers</li>
+						</ul>
+					</li>
+					<li>
+						My Collections
+					</li>
+				</ul>
+			</li>
+			<li>
+				Fashion
+				<ul>
+					<li>
+						Top Categories
+						<ul>
+							<li>Men's</li>
+							<li>Women's</li>
+							<li>Kids</li>
+						</ul>
+					</li>
+					<li>
+						Shop for
+						<ul>
+							<li>Jewelry &amp; Watches</li>
+							<li>Handbags &amp; Accessories</li>
+							<li>Health &amp; Beauty</li>
+							<li>Shoes</li>
+							<li>Sales &amp; Events</li>
+						</ul>
+					</li>
+				</ul>
+			</li>
+			<li>
+				Electronics
+				<ul>
+					<li>
+						Top categories
+						<ul>
+							<li>Cell Phones &amp; Accessories</li>
+							<li>Cameras &amp; Photo</li>
+							<li>Computers &amp; Tables</li>
+						</ul>
+					</li>
+					<li>
+						Other Categories
+						<ul>
+							<li>Car Audio, Video &amp; GPS</li>
+							<li>iPhone</li>
+							<li>iPad</li>
+							<li>TV, Audio</li>
+							<li>Video Games &amp; Consoles</li>
+						</ul>
+					</li>
+				</ul>
+			</li>
+			<li>
+				Collectibles &amp; Art
+				<ul>
+					<li>
+						Top Categories
+						<ul>
+							<li>Antiques</li>
+							<li>Collectibles</li>
+						</ul>
+					</li>
+					<li>
+						Additional Categories
+						<ul>
+							<li>Sports Memorabillia</li>
+							<li>Art</li>
+							<li>Entertainment Memorabillia</li>
+						</ul>
+					</li>
+				</ul>
+			</li>
+			<li>
+				Home &amp; Garden
+				<ul>
+					<li>
+						Top Categories
+						<ul>
+							<li>Home Décor</li>
+							<li>Home Improvement</li>
+							<li>Tools</li>
+						</ul>
+					</li>
+					<li>
+						Shop for the home
+						<ul>
+							<li>Crafts</li>
+							<li>Baby</li>
+							<li>Kitchen, Dining &amp; Bar</li>
+							<li>Yard, Garden &amp; Outdoor</li>
+						</ul>
+					</li>
+				</ul>
+			</li>
+			<li>
+				Sporting Goods
+				<ul>
+					<li>
+						Top Categories
+						<ul>
+							<li>Cycling</li>
+							<li>Golf</li>
+							<li>Hunting</li>
+						</ul>
+					</li>
+					<li>
+						Additional Categories
+						<ul>
+							<li>Exercise &amp; Fitness</li>
+							<li>Fishing</li>
+							<li>Outdoor Sports</li>
+							<li>Team Sports</li>
+						</ul>
+					</li>
+				</ul>
+			</li>
+			<li>
+				Motors
+				<ul>
+					<li>
+						Top Categories
+						<ul>
+							<li>Cars &amp; Trucks</li>
+							<li>Motorcycles</li>
+							<li>Parts &amp; Accessories</li>
+						</ul>
+					</li>
+					<li>
+						Additional Categories
+						<ul>
+							<li>Boats</li>
+							<li>Other Vehicles</li>
+							<li>Powersports</li>
+						</ul>
+					</li>
+				</ul>
+			</li>
+			<li>
+				Daily Deals
+				<ul>
+					<li>
+						Top Categories
+						<ul>
+							<li>Fashion Sales</li>
+							<li>Home Deals</li>
+							<li>Health &amp; Beauty Deals</li>
+							<li>Watch Deals</li>
+							<li>All Deals &amp; Special Offers</li>
+						</ul>
+					</li>
+				</ul>
+			</li>
+		</ul>
+	</div>
+</div>
 
-Hello World!
-
-<!-- HTML element from which the DatePicker would be initialized -->
-<input id="datepicker" />
 <script>
-$(function() {
-    // Initialize the Kendo DatePicker by calling the kendoDatePicker jQuery plugin
-    $("#datepicker").kendoDatePicker();
+$(document).ready(function() {
+	$('#menu').kendoMenu();
 });
 </script>
 
