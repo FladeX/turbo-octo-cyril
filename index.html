@@ -6,6 +6,7 @@
 	<link href="styles/kendo.default.min.css" rel="stylesheet" />
 	<link href="styles/kendo.dataviz.min.css" rel="stylesheet" />
 	<link href="styles/kendo.default.mobile.min.css" rel="stylesheet" />
+	<link href="styles/custom.css" rel="stylesheet" />
 
 	<link rel="shortcut icon" href="favicon.ico"/>
 
@@ -17,15 +18,13 @@
 <body>
 <div id="main">
 	<div id="header">
-		<ul id="menu-images"></ul>
+		<ul id="menu-sprites"></ul>
 	</div>
 </div>
 
 <script>
 $(document).ready(function() {
-	$('#menu').kendoMenu();
-
-	$('#menu-images').kendoMenu({
+	$('#menu-sprites').kendoMenu({
 		dataSource: [
 			{
 				text: 'Following',
@@ -66,9 +65,18 @@ $(document).ready(function() {
 					{
 						text: 'Top Categories',
 						items: [
-							{ text: 'Men\'s' },
-							{ text: 'Women\'s' },
-							{ text: 'Kids' },
+							{
+								text: 'Men\'s',
+								spriteCssClass: 'menu__men',
+							},
+							{
+								text: 'Women\'s',
+								spriteCssClass: 'menu__women',
+							},
+							{
+								text: 'Kids',
+								spriteCssClass: 'menu__kids',
+							},
 						],
 					},
 					{
@@ -89,9 +97,18 @@ $(document).ready(function() {
 					{
 						text: 'Top categories',
 						items: [
-							{ text: 'Cell Phones & Accessories' },
-							{ text: 'Cameras & Photo' },
-							{ text: 'Computers & Tables' },
+							{
+								text: 'Cell Phones & Accessories',
+								spriteCssClass: 'menu__phones',
+							},
+							{
+								text: 'Cameras & Photo',
+								spriteCssClass: 'menu__photos',
+							},
+							{
+								text: 'Computers & Tables',
+								spriteCssClass: 'menu__computers',
+							},
 						],
 					},
 					{
@@ -112,8 +129,14 @@ $(document).ready(function() {
 					{
 						text: 'Top Categories',
 						items: [
-							{ text: 'Antiques' },
-							{ text: 'Collectibles' },
+							{
+								text: 'Antiques',
+								spriteCssClass: 'menu__antiques',
+							},
+							{
+								text: 'Collectibles',
+								spriteCssClass: 'menu__collectibles',
+							},
 						],
 					},
 					{
@@ -132,9 +155,18 @@ $(document).ready(function() {
 					{
 						text: 'Top Categories',
 						items: [
-							{ text: 'Home Décor' },
-							{ text: 'Home Improvement' },
-							{ text: 'Tools' },
+							{
+								text: 'Home Décor',
+								spriteCssClass: 'menu__decor',
+							},
+							{
+								text: 'Home Improvement',
+								spriteCssClass: 'menu__improve',
+							},
+							{
+								text: 'Tools',
+								spriteCssClass: 'menu__tools',
+							},
 						],
 					},
 					{
@@ -154,9 +186,18 @@ $(document).ready(function() {
 					{
 						text: 'Top Categories',
 						items: [
-							{ text: 'Cycling' },
-							{ text: 'Golf' },
-							{ text: 'Hunting' },
+							{
+								text: 'Cycling',
+								spriteCssClass: 'menu__cycling',
+							},
+							{
+								text: 'Golf',
+								spriteCssClass: 'menu__golf',
+							},
+							{
+								text: 'Hunting',
+								spriteCssClass: 'menu__hunting',
+							},
 						],
 					},
 					{

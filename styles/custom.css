@@ -1,0 +1,45 @@
+#menu-sprites .k-sprite {
+	background-image: url('../images/menu_sprite.png');
+}
+.menu__men {
+	background-position: -104px -130px;
+}
+.menu__women {
+	background-position: -40px -98px;
+}
+.menu__kids {
+	background-position: -104px -34px;
+}
+.menu__phones {
+	background-position: -7px -323px;
+}
+.menu__photos {
+	background-position: -7px -261px;
+}
+.menu__computers {
+	background-position: -7px -293px;
+}
+.menu__antiques {
+	background-position: -7px 0;
+}
+.menu__collectibles {
+	background-position: -7px -197px;
+}
+.menu__decor {
+	background-position: -40px -385px;
+}
+.menu__improve {
+	background-position: -102px -290px;
+}
+.menu__tools {
+	background-position: -66px -225px;
+}
+.menu__cycling {
+	background-position: 0 -389px;
+}
+.menu__golf {
+	background-position: -38px -324px;
+}
+.menu__hunting {
+	background-position: -35px -417px;
+}
